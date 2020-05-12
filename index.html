@@ -1,32 +1,169 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
+        <!--<link rel="stylesheet" href="main.css" />-->
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width = device - width, initial-scale = 1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>
             Alexander Yu
         </title>
     </head>
     <body>
-        <img src ="logo.png">
-        <h2>
-            -<br>About Me
-        </h2>
-        <p>
-            Currently a 2nd-year student at the University of Ottawa.
-            I am majoring in Software Engineering and have taken my 
-            career to the next level by participating in events held 
-            by universities and by companies like Code in the Dark by 
-            OSEDEA. I have participated in 3 hack-a-thons and plan on 
-            attending more. I consider my self a person who loves to learn
-            and understand concepts. Lessons can be taken anywhere and at any 
-            time, I am willing to test my knowledge and to learn where 
-            ever and whenever.
-        </p>
-        <hr>
-        <h2>
-            -<br>Contact / links
-        </h2>
+        <header>
+            <div class="menu-toggler">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
+            </div>
+
+            <nav class = "top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#extra" class="nav-link">Extra Curriculars</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="landing-text">
+                <h1>
+                    Alexander Yu
+                </h1>
+                <h6>
+                    Computer Software Engineer
+                </h6>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img">
+                    <img src="images/profile.jpeg" alt ="">
+                </div>
+                <div class="about-details">
+                    <div class="about-heading">
+                        <h1>
+                            About
+                        </h1>
+                        <h6>
+                            Myself
+                        </h6>
+                        <p>
+                            Currently a 2nd-year student at the University of Ottawa.
+                            I am majoring in Software Engineering and have taken my 
+                            career to the next level by participating in events held 
+                            by universities and by companies like Code in the Dark by 
+                            OSEDEA. I have participated in 3 hack-a-thons and plan on 
+                            attending more. I consider myself a person who loves to learn
+                            and understand concepts. Lessons can be taken anywhere and at any 
+                            time, I am willing to test my knowledge and to learn where 
+                            ever and whenever.
+                        </p>
+                    </div>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#" class ="icon-link">
+                                    <i style="font-size:30px" class="fa">&#xf230;</i> <!--facebook-->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class ="icon-link">
+                                    <i style="font-size:30px" class="fa">&#xf08c;</i> <!--Linkedin-->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class ="icon-link">
+                                    <i style="font-size:30px" class="fa">&#xf09b;</i><!--Github-->
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class ="icon-link">
+                                    <i style="font-size:30px" class="fa">&#xf1a0;</i><!--Email-->
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Projects</h1>
+                    <h6>Code Brought to Life</h6>
+                </div>
+                <div class="projects-item">
+                    <div class="project-description">
+                        <h6>Personal Website</h6>
+                        <h1>Online Portfolio</h1>
+                        <p>
+                            Sample Text...
+                        </p>
+                        <a href="#" class="cta">View Details</a>
+                    </div>
+                    <div class="projects-img">
+                        <img src="images/projectsitem.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Extra Curriculars" id="extra">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Extra Curriculars</h1>
+                    <h6>Learning outside of School</h6>
+                </div>
+                <div class="extra-item">
+                    <div class="extra-description">
+                        <h6>Hack-A-Thons</h6>
+                        <h1>Designing with Peers</h1>
+                        <p>
+                            Sample Text...
+                        </p>
+                        <a href="#" class="cta">View Details</a>
+                    </div>
+                    <div class="extra-img">
+                        <img src="images/extraitem.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>How to get in Touch</h6>
+                </div>
+                <form action="">
+                    <label for="name">Name: </label>
+                    <input type ="text" id ="name" name="name" placeholder = "Enter your name" required>
+                    <label for="email">Email: </label>
+                    <input type ="email" id ="email" name="email" placeholder = "Enter your email" required>
+                    <label for="subject">Subject: </label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value = "submit">
+                </form>
+            </div>
+        </section>
+        
         <p>
             <a href = "https://www.linkedin.com/in/alexanderkyu/" target ="_blank"> Linkedin</a>
             <br>
@@ -38,6 +175,16 @@
             <br>
             Will reply within 2 business days
         </p>
+
+        <footer class="copyright">
+            <div class="up" id="up">
+                <p>
+                    2020 Alexander Yu
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     </body>
 </html>
