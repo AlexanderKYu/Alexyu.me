@@ -1,10 +1,10 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 
 .container{
-    width: 80%;
+    width: 50%;
     margin: auto;
 }
 
@@ -92,7 +92,7 @@ body { background: white }
   content: "";
   position: absolute;
   top: 0;
-  right: -8px;
+  right: -5px;
   display: inline-block;
   background-color: #606060;
   vertical-align: top;
@@ -118,13 +118,20 @@ body { background: white }
 
 .contact h2{
     
-    margin-top: 50px;
+    float:center;
+    margin-top: 400px;
+    text-align: center;
 
+}
+
+.contact-links{
+    text-align: center;
 }
 .footer-contact{
     margin-top: 5px;
     font-family:Tahoma, Arial;
     font-size: 10px;
+    text-align: center;
 }
 
 .table td{
@@ -132,13 +139,6 @@ body { background: white }
 
 }
 
-.black{
-    margin-top: 50px;
-    height: 200px;
-    position:left;
-    background-color: black;
-    position: relative;
-}
 
 .fa {
     padding: 10px;
@@ -175,12 +175,12 @@ body { background: white }
     color: white;
 }
 
-
 .para-subject{
     margin-bottom: 50px; 
     margin-left: 25px;
     font-family: Tahoma, Arial;
-    width: 100%
+    width: 100%;
+
 }
 
 .para-subject h2{
@@ -190,10 +190,80 @@ body { background: white }
 .para-subject p{
     margin-top: 5px;
     margin-bottom:0px;
+    margin-right:5px;
 }
 
 .project-1{
     border: 2px solid grey;
     padding: 15px;
-    max-width: fit-content;
+    max-width: 1000px;
+}
+
+.project-extra-name a{
+    text-decoration: none;
+}
+
+.project-extra-name a:visited{
+    text-decoration: none; 
+    color:black;
+}
+
+.project-extra-name a:hover{
+    text-decoration: none; 
+    color:black;
+}
+
+.project-extra-name a:focus{
+    text-decoration: none; 
+    color:black;
+}
+
+.project-extra-name a:hover{
+    text-decoration: none; 
+    color:black;
+}
+
+.project-extra-name a:active{
+    text-decoration: none; 
+    color:black;
+}
+
+.project-extra-sub{
+    font-family: Tahoma, Arial;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.extra-1{
+    float: left;
+    border: 2px solid grey;
+    padding: 15px;
+    max-width: 900px;
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+
+.extra-date{
+    font-family: Tahoma, Arial;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.extra-2{
+    float: left;
+    border: 2px solid grey;
+    padding: 15px;
+    max-width: 1000px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.picture{
+    margin-left: 25px;
+    float: right;
+    border: 2px solid black;
+    padding: 300px 250px;
+    
 }
