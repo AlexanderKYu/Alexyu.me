@@ -260,25 +260,16 @@ body { background: white }
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
 .picture{
     margin:auto;
     float: right;
-    height: 424px;
+    height: 600px;
     width: 600px;
-    border: 2px solid grey;
-}
-
-.picture{
-    margin-left:auto;
-    margin-right: auto;
-    max-width: 600px;
-    max-height: 600px;
-    border: 2px solid black;
-    
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     *{
         margin: 0;
         padding: 0;
@@ -289,18 +280,27 @@ body { background: white }
     }
     
     .picture {
-      max-width: 300px;
-      max-height: 300px;
-      border: 2px solid black;
+        float:center;
+        max-width: 250px;
+        max-height: 250px;
     }
 
+    .img {
+        float:center;
+        margin-left:auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
 }
 
 .img {
+    float:right;
     margin-left:auto;
     margin-right: auto;
     width: 100%;
-    max-width: 100% ;
     height: auto;
     object-fit: contain;
 }
