@@ -201,6 +201,7 @@ body { background: white }
 
 .project-extra-name a{
     text-decoration: none;
+    color:black;
 }
 
 .project-extra-name a:visited{
@@ -296,6 +297,7 @@ body { background: white }
     
     .project-extra-name a{
         text-decoration: none;
+        color: black;
     }
     
     .project-extra-name a:visited{
