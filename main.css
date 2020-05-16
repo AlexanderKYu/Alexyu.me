@@ -2,6 +2,7 @@
 .container{
     width: 50%;
     margin: auto;
+    align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
 }
 
 .headers{
@@ -35,7 +36,6 @@
 .p-about p{
 
     margin-top: 30px;
-    margin-left: 25px;
     margin-bottom: 50px;
     font-family: Tahoma, Arial;
     text-align:left;
@@ -117,9 +117,8 @@ body { background: white }
 /* Animation end */
 
 .contact h2{
-    
-    float:center;
-    margin-top: 400px;
+
+    margin-top: 20px;
     text-align: center;
 
 }
@@ -180,6 +179,8 @@ body { background: white }
     margin-left: 25px;
     font-family: Tahoma, Arial;
     width: 100%;
+    display: flex;
+    flex-wrap:wrap;
 
 }
 
@@ -237,12 +238,14 @@ body { background: white }
 }
 
 .extra-1{
-    float: left;
+    flex-basis: auto;
+    order: 5;
     border: 2px solid grey;
     padding: 15px;
-    max-width: 900px;
+    max-width: fit-content;
     text-align:left;
-    margin-bottom: 10px;
+    margin-bottom:10px;
+    margin-right: 10px;
 }
 
 
@@ -254,17 +257,18 @@ body { background: white }
 }
 
 .extra-2{
-    float: left;
+    flex-basis: auto;
+    order: 5;
     border: 2px solid grey;
     padding: 15px;
-    max-width: 1000px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    max-width: fit-content;
+    
+
 }
 
 .picture{
     margin:auto;
-    float: right;
+    
     height: 600px;
     width: 600px;
 }
@@ -275,19 +279,56 @@ body { background: white }
         margin: 0;
         padding: 0;
     }
+    body { background: white }
+
+    .text {
+    margin-top: 20px;
+    position: left;
+    display: inline-block;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    line-height: 14px;
+    font-size: 14px;
+    color: black;
+    }
+
+    .text::after {
+    content: "";
+    position: left;
+    top: 0;
+    right: -5px;
+    display: inline-block;
+    background-color: #606060;
+    vertical-align: top;
+    width: 6px;
+    height: 14px;
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+    }
+
+    @-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    }
+
+    @keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    }
+
 
     .title-header h5{
-        margin-top: 0px;
+        margin:0;
+        text-align: left;
     }
-    
     .picture {
-        float:center;
         max-width: 250px;
         max-height: 250px;
     }
 
     .img {
-        float:center;
+        
         margin-left:auto;
         margin-right: auto;
         width: 100%;
@@ -327,7 +368,6 @@ body { background: white }
 }
 
 .img {
-    float:right;
     margin-left:auto;
     margin-right: auto;
     width: 100%;
