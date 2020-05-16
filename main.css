@@ -294,6 +294,34 @@ body { background: white }
         object-fit: contain;
     }
     
+    .project-extra-name a{
+        text-decoration: none;
+    }
+    
+    .project-extra-name a:visited{
+        text-decoration: none; 
+        color:black;
+    }
+    
+    .project-extra-name a:hover{
+        text-decoration: none; 
+        color:black;
+    }
+    
+    .project-extra-name a:focus{
+        text-decoration: none; 
+        color:black;
+    }
+    
+    .project-extra-name a:hover{
+        text-decoration: none; 
+        color:black;
+    }
+    
+    .project-extra-name a:active{
+        text-decoration: none; 
+        color:black;
+    }
 }
 
 .img {
