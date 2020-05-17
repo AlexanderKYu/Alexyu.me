@@ -273,6 +273,11 @@ body { background: white }
         justify-content: center;
     }
     
+    .p-about{
+        padding-left: 20px;
+        padding-right:20px;
+    }
+
     .project-extra-name a{
         text-decoration: none;
         color: black;
