@@ -13,6 +13,8 @@
     display: flex;
     flex-wrap: wrap;
     float: right;
+    margin-top: 20px;
+    margin-right:20px;
     /* padding: 10px; */
     font-size: 35px;
     padding: 0;
@@ -301,6 +303,21 @@
         padding: initial;
         text-align: center;
         justify-content: center;
+    }
+
+    .dark button{
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        margin-top:10px;
+        margin-right:20px;
+        /* padding: 10px; */
+        font-size: 30px;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        outline: none;
+        
     }
     
     .p-about{
