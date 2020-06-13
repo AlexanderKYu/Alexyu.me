@@ -1,7 +1,8 @@
 *{
     margin:0;
     padding:0;
-    color: black;
+    color: white;
+    background-color: rgb(17, 18, 22);
 }
 
 .logo{
@@ -16,21 +17,28 @@
     margin-top: 20px;
     margin-right:20px;
     /* padding: 10px; */
-    font-size: 35px;
     padding: 0;
     border: 0;
     background-color: transparent;
     outline: none;
+    width:40px;
+    height:40px;
+    content: url('iconfinder_sun_light_mode_day_5402428.png');
     
 }
 
 .dark-mode {
-    background-color: rgb(17, 18, 22);
-    color: white;
+
+    background-color: white;
+    color: black;
+}
+.dark-mode button{
+    content: url('iconfinder_moon_dark_mode_night_5402400.png');
 }
 
 .dark-mode *{
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .container{
