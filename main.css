@@ -237,7 +237,8 @@
 }
 
 .project-extra-name a:hover{
-    text-decoration: none; 
+    text-decoration: none;
+    opacity: 0.7; 
     /* color:black; */
 }
 
@@ -246,10 +247,6 @@
     /* color:black; */
 }
 
-.project-extra-name a:hover{
-    text-decoration: none; 
-    /* color:black; */
-}
 
 .project-extra-name a:active{
     text-decoration: none; 
