@@ -1,7 +1,36 @@
 *{
     margin:0;
     padding:0;
+    color: black;
 }
+
+.logo{
+    margin:0;
+    width:75px;
+    height:75px;
+}
+.dark button{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    /* padding: 10px; */
+    font-size: 35px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    
+}
+
+.dark-mode {
+    background-color: rgb(17, 18, 22);
+    color: white;
+}
+
+.dark-mode *{
+    color: white;
+}
+
 .container{
     width: 50%;
     margin: auto;
@@ -50,6 +79,7 @@
 }
 
 .copy{
+    
     font-family:Tahoma, Arial;
     font-size: 10px;
     text-align: right;
@@ -73,7 +103,7 @@
 
 
 /* Animation start */
-body { background: white }
+/* body { background: white } */
 
 .text {
   margin-top: 20px;
@@ -82,7 +112,7 @@ body { background: white }
   font-family: monospace, Arial, Helvetica, sans-serif;
   line-height: 14px;
   font-size: 14px;
-  color: black;
+  /* color: black; */
 }
 
 .text::after {
@@ -94,7 +124,7 @@ body { background: white }
   background-color: #606060;
   vertical-align: top;
   width: 6px;
-  height: 14px;
+  height: 13px;
   -webkit-animation: blink 1s step-end infinite;
   animation: blink 1s step-end infinite;
 }
@@ -196,32 +226,32 @@ body { background: white }
 
 .project-extra-name a{
     text-decoration: none;
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-name a:visited{
     text-decoration: none; 
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-name a:hover{
     text-decoration: none; 
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-name a:focus{
     text-decoration: none; 
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-name a:hover{
     text-decoration: none; 
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-name a:active{
     text-decoration: none; 
-    color:black;
+    /* color:black; */
 }
 
 .project-extra-sub{
@@ -280,32 +310,32 @@ body { background: white }
 
     .project-extra-name a{
         text-decoration: none;
-        color: black;
+        /* color: black; */
     }
     
     .project-extra-name a:visited{
         text-decoration: none; 
-        color:black;
+        /* color:black; */
     }
     
     .project-extra-name a:hover{
         text-decoration: none; 
-        color:black;
+        /* color:black; */
     }
     
     .project-extra-name a:focus{
         text-decoration: none; 
-        color:black;
+        /* color:black; */
     }
     
     .project-extra-name a:hover{
         text-decoration: none; 
-        color:black;
+        /* color:black; */
     }
     
     .project-extra-name a:active{
         text-decoration: none; 
-        color:black;
+        /* color:black; */
     }
     .project-1{
         margin-left:auto;
