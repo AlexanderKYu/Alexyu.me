@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset = "utf-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <meta name = "viewport" content = "width = device-width; initial-scale = 1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         
@@ -19,16 +19,12 @@
                 
                 <div id="box"><span id="cursor" class="blink"></span></div>
                 <div class="dark">
-                        <button onclick='dark()' onclick='darkButton()'></button>
+                        <button onclick='dark()'></button>
                     <script>
                         function dark(){
                             var element = document.body;
                             element.classList.toggle("dark-mode");
-                        }
-                        function darkButton(){
-                            var button = document.button;
-                            button.classList.toggle("dark-mode-button");
-
+                            var elementImg = img.logo;
                         }
                     </script>
                 </div>
@@ -171,10 +167,14 @@
                     </div>
                 </div>
             <div class="footer">
+                <div class="dark">
+                        <img1 class="logo" src="final.png">
+                </div>
                 <div class="copy">
-                    <img class="logo" src="alex_logoblack.png">
-                    <br>
-                    2020 Alexander Yu
+                    <p>
+                        2020 Alexander Yu
+                    </p>
+                    
                 </div>
             </div>
         </div>

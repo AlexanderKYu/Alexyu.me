@@ -1,3 +1,5 @@
+@import url("css/style.css");
+
 *{
     margin:0;
     padding:0;
@@ -10,6 +12,8 @@
     width:75px;
     height:75px;
 }
+
+
 .dark button{
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +30,9 @@
     content: url('iconfinder_sun_light_mode_day_5402428.png');
     
 }
+.dark img1{
+    content: url(final.png);
+}
 
 .dark-mode {
 
@@ -34,6 +41,10 @@
 }
 .dark-mode button{
     content: url('iconfinder_moon_dark_mode_night_5402400.png');
+}
+
+.dark-mode img1{
+    content: url('alex_logoblack.png');
 }
 
 .dark-mode *{
