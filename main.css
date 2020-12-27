@@ -1,23 +1,62 @@
 @import url("css/style.css");
 
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     color: white;
     background-color: rgb(17, 18, 22);
 }
 
+.MasterContainer{
+    display: flex;
+    flex-direction: column;
+}
 
+.TitleContainer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animation {
+    padding-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    line-height: 14px;
+    font-size: 14px;
+}
+  
+.animation::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -5px;
+    display: inline-block;
+    background-color: #606060;
+    vertical-align: top;
+    width: 6px;
+    height: 12px;
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+}
+  
+@-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+  
+@keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
 
 .dark button1{
     display: flex;
     flex-wrap: wrap;
     float: right;
-    margin-top: 20px;
-    margin-right:20px;
-    /* padding: 10px; */
-    padding: 0;
-    border: 0;
     outline: none;
     width:35px;
     height:35px;
@@ -25,25 +64,17 @@
     
 }
 .dark img1{
-    margin:0;
-    width:75px;
-    height:75px;
     content: url(final.png);
 }
 
-.dark-mode {
-
-    background-color: white;
-    color: black;
-}
 .dark-mode button1{
     content: url('moon.png');
 }
 
 .dark-mode img1{
-    margin:0;
-    width:75px;
-    height:75px;
+    width: 5.5%;
+    height: auto;
+    object-fit: contain;
     content: url('alex_logoblack.png');
 }
 
@@ -52,138 +83,149 @@
     color: black;
 }
 
-.container{
-    width: 50%;
-    margin: auto;
-    align-items: left;
+.TitleHeader{
+    margin-top: 10px;
+    font-family: Tahoma, Arial;
+    text-transform: uppercase;
 }
 
-.headers{
+.TitleHeader h1{
+    font-family: Impact, Tahoma, Arial;
+    font-weight: 100;
+}
 
-    margin-bottom: 10px;
+.TitleHeader h5{
+    margin-top: 5px;
+}
+.Image {
+    display: flex;
+    justify-content: space-around;
+}
+.img {
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+}
+
+.Intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     font-family: Tahoma, Arial;
     text-transform: uppercase;
     font-size: 25px;
 }
 
-.title-header{
-
-    margin-top: 20px;
-    margin-bottom: 20px;
+.bio {
+    width: 75%;
+    display: flex;
+    align-self: center;
     font-family: Tahoma, Arial;
-    text-transform: uppercase;
-    
-}
-
-.title-header h1{
-    font-family: Impact, Tahoma, Arial;
-    font-weight: 100;
-
-}
-
-.p-about p{
-
-    margin-top: 30px;
-    margin-bottom: 50px;
-    font-family: Tahoma, Arial;
-    text-align:left;
+    text-align: left;
     line-height:1.6em;
 }
 
-.footer{
-
-    text-align: right;
-    margin:0;
-    font-family:Tahoma, Arial;
-    font-size: 10px;
-
+.SubHeader {
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-.copy{
-    
-    font-family:Tahoma, Arial;
-    font-size: 10px;
-    text-align: right;
-    margin: 0;
+.SubHeader a{
+    text-decoration: none;
 }
 
-.headers-subject{
-    margin-bottom: 20px;
+.SubHeader a:visited{
+    text-decoration: none;
+}
+
+.SubHeader a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.SubHeader a:focus{
+    text-decoration: none;  
+}
+
+
+.SubHeader a:active{
+    text-decoration: none; 
+}
+
+.Box {
+    flex-direction: column;
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial;
+}
+
+.Caption {
+    font-family: Tahoma, Arial;
+    font-size: 13px;
+}
+
+.WorkExp {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.Projects {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.Extra{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.CustomHeader {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
     font-family: Tahoma, Arial;
     text-transform: uppercase;
     font-size: 25px;
 }
 
-
-.para-subject p{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-family: Tahoma, Arial;
-    line-height: 1.6em;
-}
-
-
-/* Animation start */
-/* body { background: white } */
-
-.text {
-  margin-top: 20px;
-  position: relative;
-  display: inline-block;
-  font-family: monospace, Arial, Helvetica, sans-serif;
-  line-height: 14px;
-  font-size: 14px;
-  /* color: black; */
-}
-
-.text::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -5px;
-  display: inline-block;
-  background-color: #606060;
-  vertical-align: top;
-  width: 6px;
-  height: 13px;
-  -webkit-animation: blink 1s step-end infinite;
-  animation: blink 1s step-end infinite;
-}
-
-@-webkit-keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
-
-@keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
-
-/* Animation end */
-
-.contact h2{
-    margin-top: 20px;
+.ContactLinks{
+    align-self: center;
     text-align: center;
 }
-
-.contact-links{
-    text-align: center;
-}
-.footer-contact{
-    margin-top: 5px;
-    font-family:Tahoma, Arial;
-    font-size: 10px;
-    text-align: center;
-}
-
-.table td{
-    border: 1px, solid, black;
-
-}
-
 
 .fa {
     padding: 10px;
@@ -194,7 +236,6 @@
     margin: 5px 2px;
     border-radius: 50%;
 }
-
 
 .fa:hover {
     opacity: 0.7;
@@ -220,192 +261,24 @@
     color: white;
 }
 
-.para-subject{
-    margin-bottom: 50px; 
+.FooterContact{
+    font-size: 10px;
     font-family: Tahoma, Arial;
-    width: 100%;
+    text-transform: uppercase;
+}
+
+.Footer {
+    width: 75%;
     display: flex;
-    flex-wrap:wrap;
-
-}
-
-.para-subject p{
-    margin-top: 5px;
-    margin-bottom:0px;
-    margin-right:5px;
-
-}
-
-.project-1{
-    flex-basis: auto;
-    order: 5;
-    border: 2px solid grey;
-    padding: 15px;
-    width: auto;
-    margin-bottom:10px;
-    margin-right: 10px;
-
-}
-
-.project-2{
-    flex-basis: auto;
-    order: 5;
-    border: 2px solid grey;
-    padding: 15px;
-    width: auto;
-    margin-bottom:10px;
-    margin-right: 10px;
-}
-
-.project-extra-name a{
-    text-decoration: none;
-    /* color:black; */
-}
-
-.project-extra-name a:visited{
-    text-decoration: none; 
-    /* color:black; */
-}
-
-.project-extra-name a:hover{
-    text-decoration: none;
-    opacity: 0.7; 
-    /* color:black; */
-}
-
-.project-extra-name a:focus{
-    text-decoration: none; 
-    /* color:black; */
-}
-
-
-.project-extra-name a:active{
-    text-decoration: none; 
-    /* color:black; */
-}
-
-.project-extra-sub{
+    flex-direction: column;
+    font-size: 10px;
     font-family: Tahoma, Arial;
-    font-size: 13px;
-    margin-top: 10px;
-
+    text-align: right;
+    align-self: center;
 }
 
-.project-extra-name{
-    text-align: center;
-}
-
-.extra-1{
-    flex-basis: auto;
-    order: 5;
-    border: 2px solid grey;
-    padding: 15px;
-    width: auto;
-    margin-bottom:10px;
-    margin-right: 10px;
-}
-
-
-.extra-2{
-    flex-basis: auto;
-    order: 5;
-    border: 2px solid grey;
-    padding: 15px;
-    width: auto;
-    margin-bottom:10px;
-    margin-right: 10px;
-
-}
-
-.picture{
-    text-align: center;
-    max-width:100%;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-
-    .container{
-        margin:0 auto;
-        position: absolute;
-        width:100%;
-        padding: initial;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .dark button{
-        display: flex;
-        flex-wrap: wrap;
-        float: right;
-        margin-top:10px;
-        margin-right:20px;
-        /* padding: 10px; */
-        font-size: 30px;
-        padding: 0;
-        border: 0;
-        background-color: transparent;
-        outline: none;
-        
-    }
-    
-    .p-about{
-        padding-left: 20px;
-        padding-right:20px;
-    }
-
-    .project-extra-name a{
-        text-decoration: none;
-        /* color: black; */
-    }
-    
-    .project-extra-name a:visited{
-        text-decoration: none; 
-        /* color:black; */
-    }
-    
-    .project-extra-name a:hover{
-        text-decoration: none; 
-        /* color:black; */
-    }
-    
-    .project-extra-name a:focus{
-        text-decoration: none; 
-        /* color:black; */
-    }
-    
-    .project-extra-name a:hover{
-        text-decoration: none; 
-        /* color:black; */
-    }
-    
-    .project-extra-name a:active{
-        text-decoration: none; 
-        /* color:black; */
-    }
-    .project-1{
-        margin-left:auto;
-        margin-right: auto;
-    }
-
-    .project-2{
-        margin-left:auto;
-        margin-right: auto;
-    }
-    .extra-1{
-        margin-left:auto;
-        margin-right: auto;
-    }
-    .extra-2{
-        margin-left:auto;
-        margin-right: auto;
-    }
-}
-
-.img {
-    text-align: center;
-    width: 100%;
+.Logo {
+    width: 6%;
     height: auto;
     object-fit: contain;
 }
