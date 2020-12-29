@@ -97,15 +97,11 @@
 .TitleHeader h5{
     margin-top: 5px;
 }
-.Image {
-    max-height: 100%;
-    max-width: fit-content;
-    display: flex;
-    justify-content: space-around;
-}
+
 .img {
     width: 75%;
     height: auto;
+    align-self: center;
     object-fit: contain;
 }
 
