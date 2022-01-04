@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
-export const AboutContainer = styled.div`
+export const ContactContainer = styled.div`
 
     @media screen and (max-width: 760px){
         padding: 100px 0;
     }
 `
 
-export const AboutWrapper = styled.div`
+export const ContactWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1000px;
+    height: 700px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -18,11 +18,11 @@ export const AboutWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 760px){
-        height: 860px;
+        height: 560px;
     }
 `
 
-export const AboutRow = styled.div`
+export const ContactRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -49,6 +49,8 @@ export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top:0;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
 `
 
 export const TopLine = styled.p`
@@ -92,4 +94,10 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+`
+
+export const Link = styled.a`
+    line-height: 1.8rem;
+    color: grey;
+    text-decoration: none;
 `

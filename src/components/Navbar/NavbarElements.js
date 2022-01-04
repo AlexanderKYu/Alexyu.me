@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import { Link as LRouter } from 'react-router-dom'
 import { Link as LScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
     background: #fff;
     height: 80px;
-    margin-top:-80px;
+    /* margin-top:-80px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,12 +24,9 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    /* padding: 0 24px; */
-    /* max-width: 1100px; */
-
 `
 
-export const NavLogo = styled(LRouter)`
+export const NavLogo = styled(LScroll)`
     color: #000;
     justify-self: flex-start;
     cursor: pointer;
@@ -48,7 +44,7 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 760px){
         display: block;
         position: absolute;
-        top: 0.8rem;
+        top: 0.9rem;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.5rem;
@@ -62,8 +58,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    /* margin-right: -22px; */
-    /* this is an off set for button on right */
 
     @media screen and (max-width: 760px) {
         display: none;
@@ -85,10 +79,10 @@ export const NavLinks = styled(LScroll)`
     cursor: pointer;
 
     &:active{
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #000;
     }
 
     &:hover{
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #000;
     }
 `
