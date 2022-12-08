@@ -37,6 +37,9 @@ const Work = (WorkObject) => {
                             <CardFooter>
                                 September 2021 - December 2021
                             </CardFooter>
+                            <CardFooter>
+                                May 2022 - August 2022
+                            </CardFooter>
                         </CardWrapper>
                     </CardContainer>
                 </WorkWrapper>
