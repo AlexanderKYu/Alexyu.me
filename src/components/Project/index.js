@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectContainer, ProjectWrapper, TextWrapper, Heading, CardContainer, Link, CardWrapper, CardImgWrapper, BBImg, CiscoImg, CardH1, CardP, CardFooter } from './ProjectElements'
+import { ProjectContainer, ProjectWrapper, TextWrapper, Heading, CardContainer, Link, CardWrapper, CardH1, CardP, CardFooter } from './ProjectElements'
 
 const Project = (ProjectObject) => {
     return (
@@ -10,6 +10,17 @@ const Project = (ProjectObject) => {
                         <Heading lightText = { ProjectObject.lightText }>{ProjectObject.headline}</Heading>
                     </TextWrapper>
                     <CardContainer>
+                    <CardWrapper>
+                            <CardH1>
+                                <Link href="https://github.com/AlexanderKYu/AlexanderKYu.github.io" target="_blank">Digital Twin Tags</Link>
+                            </CardH1>
+                            <CardP>
+                                A project where tags can be applied to an object to help generate digital twin of the physical object.
+                            </CardP>
+                            <CardFooter>
+                                React.js, Chakra UI, Eliko, Flask, AWS RDS
+                            </CardFooter>
+                        </CardWrapper>
                         <CardWrapper>
                             <CardH1>
                                 <Link href="https://github.com/AlexanderKYu/AlexanderKYu.github.io" target="_blank">Portfolio</Link>

@@ -108,6 +108,15 @@ export const CiscoImg = styled.img`
     }
 `
 
+export const RBCImg = styled.img`
+    width: 350px;
+    height: 100px;
+    object-fit: scale-down;
+    @media screen and (max-width: 760px){
+        width: 250px;
+    }
+`
+
 export const CardP = styled.p`
     font-size: 18px;
     line-height: 24px;

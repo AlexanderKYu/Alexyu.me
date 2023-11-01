@@ -1,5 +1,5 @@
 import React from 'react'
-import { WorkContainer, WorkWrapper, TextWrapper, Heading, CardContainer, Link, CardWrapper, CardImgWrapper, BBImg, CiscoImg, CardH1, CardP, CardFooter } from './WorkElements'
+import { WorkContainer, WorkWrapper, TextWrapper, Heading, CardContainer, Link, CardWrapper, CardImgWrapper, BBImg, CiscoImg, CardH1, CardP, CardFooter, RBCImg } from './WorkElements'
 
 const Work = (WorkObject) => {
     return (
@@ -39,6 +39,20 @@ const Work = (WorkObject) => {
                             </CardFooter>
                             <CardFooter>
                                 May 2022 - August 2022
+                            </CardFooter>
+                        </CardWrapper>
+                        <CardWrapper>
+                            <CardImgWrapper>
+                                <RBCImg src={ WorkObject.rbcImg } />
+                            </CardImgWrapper>
+                            <CardH1>
+                                <Link href="https://www.cisco.com/c/en_ca/index.html" target="_blank">Royal Bank of Canada</Link>
+                            </CardH1>
+                            <CardP>
+                                Software Engineer Intern Full-time
+                            </CardP>
+                            <CardFooter>
+                                May 2023 - August 2023
                             </CardFooter>
                         </CardWrapper>
                     </CardContainer>
