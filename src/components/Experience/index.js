@@ -46,7 +46,7 @@ const Work = (WorkObject) => {
                                 <RBCImg src={ WorkObject.rbcImg } />
                             </CardImgWrapper>
                             <CardH1>
-                                <Link href="https://www.cisco.com/c/en_ca/index.html" target="_blank">Royal Bank of Canada</Link>
+                                <Link href="https://www.rbcroyalbank.com/personal.html" target="_blank">Royal Bank of Canada</Link>
                             </CardH1>
                             <CardP>
                                 Software Engineer Intern Full-time
