@@ -4,3 +4,7 @@
   padding: 0;
   font-family: Tahoma, Arial;
 }
+
+html {
+  scroll-behavior: smooth;
+}
