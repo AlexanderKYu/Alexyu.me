@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce3bc139.css",
-    "main.js": "/static/js/main.e1b23c7a.js",
+    "main.css": "/static/css/main.49c21779.css",
+    "main.js": "/static/js/main.7f01992c.js",
     "static/media/video.mp4": "/static/media/video.bd522d780c0541023f7d.mp4",
     "static/media/alex.png": "/static/media/alex.abad4fbc7005a845ab25.png",
     "static/media/rbc-logo.png": "/static/media/rbc-logo.57d37ae3320e70b9658b.png",
@@ -10,11 +10,11 @@
     "static/media/cisco-logo.png": "/static/media/cisco-logo.45dcf23704cbd8f784e0.png",
     "static/media/contactImg.png": "/static/media/contactImg.6c1ecfa74efe9ce69589.png",
     "index.html": "/index.html",
-    "main.ce3bc139.css.map": "/static/css/main.ce3bc139.css.map",
-    "main.e1b23c7a.js.map": "/static/js/main.e1b23c7a.js.map"
+    "main.49c21779.css.map": "/static/css/main.49c21779.css.map",
+    "main.7f01992c.js.map": "/static/js/main.7f01992c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce3bc139.css",
-    "static/js/main.e1b23c7a.js"
+    "static/css/main.49c21779.css",
+    "static/js/main.7f01992c.js"
   ]
 }
