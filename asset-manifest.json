@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ce3bc139.css",
-    "main.js": "/static/js/main.d8f05e74.js",
+    "main.js": "/static/js/main.e1b23c7a.js",
     "static/media/video.mp4": "/static/media/video.bd522d780c0541023f7d.mp4",
     "static/media/alex.png": "/static/media/alex.abad4fbc7005a845ab25.png",
+    "static/media/rbc-logo.png": "/static/media/rbc-logo.57d37ae3320e70b9658b.png",
     "static/media/alex_logoblack.png": "/static/media/alex_logoblack.c9ce64444b2359072adf.png",
     "static/media/blackberry-logo.png": "/static/media/blackberry-logo.ed6289b793d27005f203.png",
     "static/media/cisco-logo.png": "/static/media/cisco-logo.45dcf23704cbd8f784e0.png",
     "static/media/contactImg.png": "/static/media/contactImg.6c1ecfa74efe9ce69589.png",
     "index.html": "/index.html",
     "main.ce3bc139.css.map": "/static/css/main.ce3bc139.css.map",
-    "main.d8f05e74.js.map": "/static/js/main.d8f05e74.js.map"
+    "main.e1b23c7a.js.map": "/static/js/main.e1b23c7a.js.map"
   },
   "entrypoints": [
     "static/css/main.ce3bc139.css",
-    "static/js/main.d8f05e74.js"
+    "static/js/main.e1b23c7a.js"
   ]
 }
