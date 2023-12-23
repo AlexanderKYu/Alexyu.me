@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49c21779.css",
-    "main.js": "/static/js/main.017991ae.js",
+    "main.js": "/static/js/main.ee98bced.js",
     "static/media/video.mp4": "/static/media/video.bd522d780c0541023f7d.mp4",
     "static/media/alex.png": "/static/media/alex.abad4fbc7005a845ab25.png",
     "static/media/rbc-logo.png": "/static/media/rbc-logo.57d37ae3320e70b9658b.png",
@@ -11,10 +11,10 @@
     "static/media/contactImg.png": "/static/media/contactImg.6c1ecfa74efe9ce69589.png",
     "index.html": "/index.html",
     "main.49c21779.css.map": "/static/css/main.49c21779.css.map",
-    "main.017991ae.js.map": "/static/js/main.017991ae.js.map"
+    "main.ee98bced.js.map": "/static/js/main.ee98bced.js.map"
   },
   "entrypoints": [
     "static/css/main.49c21779.css",
-    "static/js/main.017991ae.js"
+    "static/js/main.ee98bced.js"
   ]
 }
