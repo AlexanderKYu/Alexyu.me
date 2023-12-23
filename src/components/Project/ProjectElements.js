@@ -55,19 +55,22 @@ export const CardContainer = styled.div`
 `
 
 export const CardWrapper = styled.div`
-    background: #fff;
-    border: 3px solid;
-    margin: 15px;
+
+    border-radius: 26px;
+    background: linear-gradient(225deg, #a4bed7, #c3e2ff);
+    box-shadow:  -22px 22px 23px #95adc4,
+                22px -22px 23px #d7f9ff;
     padding: 10px;
-    border-radius: 0 25px;
+    margin: 25px;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    @media screen and (max-width: 760px){
+    @media screen and (max-width: 760px){  
         max-width: 300px;
     }
+
 `
 
 export const CardH1 = styled.h1`

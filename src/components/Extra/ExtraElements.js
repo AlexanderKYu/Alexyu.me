@@ -55,11 +55,12 @@ export const CardContainer = styled.div`
 `
 
 export const CardWrapper = styled.div`
-    background: #fff;
-    border: 3px solid;
-    margin: 15px;
+    border-radius: 26px;
+    background: linear-gradient(225deg, #839ec3, #9bbbe8);
+    box-shadow:  -22px 22px 23px #7790b2,
+                22px -22px 23px #abcfff;
     padding: 10px;
-    border-radius: 0 25px;
+    margin: 25px;
     max-width: 400px;
     display: flex;
     flex-direction: column;
