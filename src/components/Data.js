@@ -3,7 +3,7 @@ export const AboutObject = {
     lightBG: true,
     lightText: true,
     headline: 'The Whole Story',
-    description: "Currently a new graduate from the University of Ottawa. I majored in Software Engineering, specializing in Engineering Management and Entrepreneurship. I have taken my career to the next level by participating in events held by universities and by companies like Code in the Dark hosted by OSEDEA. I consider myself as a person who loves to learn and understand new concepts. Lessons can be taken anywhere and at any time, I am willing to test my knowledge and to learn wherever and whenever.",
+    description: "Currently a new graduate from the University of Ottawa. I majored in Software Engineering, specializing in Engineering Management and Entrepreneurship. I have taken my career to the next level by participating in events held by universities and companies like Code in the Dark hosted by OSEDEA. I consider myself a person who loves to learn and understand new concepts. Lessons can be taken anywhere and at any time, I am willing to test my knowledge and to learn wherever and whenever.",
     imgStart: false,
     img: require('../images/alex.png'),
     dark: true,

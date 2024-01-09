@@ -62,7 +62,7 @@ export const CardWrapper = styled.div`
                 22px -22px 23px #d7f9ff;
     padding: 10px;
     margin: 25px;
-    max-width: 400px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
